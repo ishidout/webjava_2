@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>New Game</title>
+</head>
+
+<body>
+<form th;action="@{/Charactor}" method="POST">
+キャラ作成
+<br />
+職業：<input type="radio" name="radiobutton" value="Knight"> 戦士
+<input type="radio" name="radiobutton" value="Wizard" /> 魔法使い
+<br />
+名前：<input type="text" name="Name" />
+<br />
+<input type="submit" value="次へ" />
+</form>
+
+</body>
+</html>
